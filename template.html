@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="cesar.js"></script>
+    <title>Cifrado Cesar</title>
+</head>
+<body>
+    <header>
+        <h2 id="title">Algoritmo de César</h2>
+    </header>        
+    <main>
+        <div class="box" id="container-texto-llano">
+            <h3 >Texto llano</h3>
+            <textarea name="texto-llano" id="texto-llano" cols="30" rows="10"></textarea>
+        </div>
+        <div id="container-cifrado">
+            <div class="box" id="container-texto-cifrado">
+                <textarea name="texto-cifrado" id="texto-cifrado" cols="30" rows="10"></textarea>
+                <h3>Texto cifrado</h3>                
+            </div>
+            <div class="box" id="container-n">
+                <input name="k-offset" id="k-offset" type="number" min="0" max="128" step="1"></input>
+                <h3>K-offset</h3>
+            </div>
+            <div class="box" id="container-texto-descifrado">
+                <textarea name="texto-descifrado" id="texto-descifrado" cols="30" rows="10"></textarea>
+                <h3>Texto descifrado</h3>                
+            </div>
+        </div>    
+    </main>
+    <footer>
+        <p>Elaborado para la materia de Criptografia - Matricula del Alumno: 201756566</p>
+    </footer>
+</body>
+</html>
